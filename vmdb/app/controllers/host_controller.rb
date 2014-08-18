@@ -258,7 +258,7 @@ class HostController < ApplicationController
     case params[:button]
     when "cancel"
       render :update do |page|
-        page.redirect_to :action=>'show_list', :flash_msg=>I18n.t("flash.add.cancelled", :model=>ui_lookup(:model=>"Host"))
+        page.redirect_to :action=>'show_list', :flash_msg=>I18n.t("flash.host.provision_cancelled", :model=>ui_lookup(:model=>"Host"))
       end
     when "add"
       add_host = Host.new

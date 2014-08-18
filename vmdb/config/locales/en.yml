@@ -169,7 +169,7 @@ en:
     host:
       no_host_selected: "No Hosts were selected to analyze and check compliance"
       analysis_started: "Analyze and Check compliance for this Host has been started"
-
+      provision_cancelled: "Provision Host Request was cancelled by the User"
     ops:
       diagnostics:
         appliance_restarted: "CFME Appliance restart initiated successfully"
